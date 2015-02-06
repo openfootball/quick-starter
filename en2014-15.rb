@@ -6,5 +6,5 @@
 
 world  'openmundi/world.db', setup: 'countries'
 
-football 'openfootball/en-england', setup: '2014-15'
+football 'openfootball/eng-england', setup: '2014-15'
 
