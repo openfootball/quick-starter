@@ -12,4 +12,4 @@ world 'openmundi/world.db', setup: 'countries'
 
 #####
 # national teams
-football 'openfootball/grounds'   ## NOTE: default is setup: 'all'
+football 'openfootball/stadiums'   ## NOTE: default is setup: 'all'
