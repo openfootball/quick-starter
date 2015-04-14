@@ -4,11 +4,11 @@
 #  use
 #    $ sportdb new top
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
-football 'openfootball/eng-england'
-football 'openfootball/de-deutschland'
-football 'openfootball/es-espana'
-football 'openfootball/it-italy'
-football 'openfootball/fr-france'
+football 'eng-england'
+football 'de-deutschland'
+football 'es-espana'
+football 'it-italy'
+football 'fr-france'
 

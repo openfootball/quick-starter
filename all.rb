@@ -8,8 +8,7 @@
 # change/rename: all to book or almanac - why, why not??
 
 
-
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 ## add world austria.db ??
 ## add world deutschland.db ??
 
@@ -17,33 +16,25 @@ world  'openmundi/world.db', setup: 'countries'
 #####
 # national teams
 
-football 'openfootball/national-teams'   ## NOTE: default is setup: 'all'
-football 'openfootball/world-cup'
+football 'national-teams'
+football 'world-cup'
 
 
 ###################
 # clubs
 
-football 'openfootball/clubs',          setup: 'clubs'
-
-# football 'openfootball/at-austria',     setup: 'clubs'  -- incl. all
-# football 'openfootball/de-deutschland', setup: 'clubs'  -- incl. all
-# football 'openfootball/eng-england',    setup: 'clubs'  -- incl. all
-# football 'openfootball/es-espana',      setup: 'clubs' -- incl. all
-# football 'openfootball/it-italy',       setup: 'clubs' -- incl. all
-# football 'openfootball/fr-france',      setup: 'clubs' -- incl. all
-football 'openfootball/ch-confoederatio-helvetica', setup: 'clubs'
+football 'clubs'
 
 
-football 'openfootball/eng-england'
-football 'openfootball/de-deutschland'
-football 'openfootball/es-espana'
-football 'openfootball/it-italy'
-football 'openfootball/fr-france'
+football 'eng-england'
+football 'de-deutschland'
+football 'es-espana'
+football 'it-italy'
+football 'fr-france'
 
-football 'openfootball/at-austria'
+football 'at-austria'
+football 'ch-confoederatio-helvetica'
 
 
-
-football 'openfootball/europe-champions-league', setup: '2014-15'
+football 'europe-champions-league'
 

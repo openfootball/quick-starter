@@ -4,7 +4,7 @@
 #  use
 #    $ sportdb new max
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
 
 #####################
@@ -42,7 +42,7 @@ football 'ch-confoederatio-helvetica'
 football 'europe-champions-league'
 
 football 'major-league-soccer'
-football 'mx-mexico', setup: 'teams'    ## fix: check fixtures
+football 'mx-mexico'
 football 'north-america-champions-league'
 
 football 'br-brazil'

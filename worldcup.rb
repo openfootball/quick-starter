@@ -5,10 +5,9 @@
 #    $ sportdb new worldcup
 
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
 
-football 'openfootball/national-teams'   ## NOTE: default is setup: 'all'
-football 'openfootball/world-cup'
-
+football 'national-teams'
+football 'world-cup'
 

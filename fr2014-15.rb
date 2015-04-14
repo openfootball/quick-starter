@@ -4,7 +4,7 @@
 #  use
 #    $ sportdb new fr2014-15
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
-football 'openfootball/fr-france', setup: '2014-15'
+football 'fr-france', setup: '2014-15'
 

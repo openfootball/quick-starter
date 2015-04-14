@@ -4,17 +4,17 @@
 #  use
 #    $ sportdb new cl2014-15
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
 
-football 'openfootball/clubs',          setup: 'clubs'
-football 'openfootball/at-austria',     setup: 'clubs'
-football 'openfootball/de-deutschland', setup: 'clubs'
-football 'openfootball/eng-england',    setup: 'clubs'
-football 'openfootball/es-espana',      setup: 'clubs'
-football 'openfootball/it-italy',       setup: 'clubs'
-football 'openfootball/fr-france',      setup: 'clubs'
-football 'openfootball/ch-confoederatio-helvetica', setup: 'clubs'
+football 'clubs'
+football 'at-austria',     setup: 'clubs'
+football 'de-deutschland', setup: 'clubs'
+football 'eng-england',    setup: 'clubs'
+football 'es-espana',      setup: 'clubs'
+football 'it-italy',       setup: 'clubs'
+football 'fr-france',      setup: 'clubs'
+football 'ch-confoederatio-helvetica', setup: 'clubs'
 
-football 'openfootball/europe-champions-league', setup: '2014-15'
+football 'europe-champions-league', setup: '2014-15'
 

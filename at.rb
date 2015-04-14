@@ -4,7 +4,7 @@
 #  use
 #    $ sportdb new at
 
-world  'openmundi/world.db', setup: 'countries'
+world  'world.db', setup: 'countries'
 
-football 'openfootball/at-austria'
+football 'at-austria'
 
