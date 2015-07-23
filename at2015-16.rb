@@ -1,9 +1,8 @@
-##########################################
-# Datafile for Austrian Bundesliga
+################################################
+# Datafile for Austrian Bundesliga 2015/16
 #
 #  use
-#    $ sportdb new at
-
+#    $ sportdb new at2015-16
 
 ###
 ## setup austria if not present
@@ -14,6 +13,5 @@ end
 
 world 'austria.db' # note: default setup is all
 
-
-football 'at-austria'
+football 'at-austria', setup: '2015-16'
 
