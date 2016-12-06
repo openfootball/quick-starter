@@ -23,6 +23,8 @@ That's it.
 
 ## License
 
+![](https://publicdomainworks.github.io/buttons/zero88x31.png)
+
 The datafiles are dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
