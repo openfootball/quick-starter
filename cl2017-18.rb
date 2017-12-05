@@ -1,8 +1,8 @@
 ##########################################
-# Datafile for Champions League 2014/15
+# Datafile for Champions League 2017/18
 #
 #  use
-#    $ sportdb new cl2014-15
+#    $ sportdb new cl2017-18
 
 world  'world.db', setup: 'countries'
 
@@ -16,5 +16,4 @@ football 'it-italy',       setup: 'clubs'
 football 'fr-france',      setup: 'clubs'
 football 'ch-confoederatio-helvetica', setup: 'clubs'
 
-football 'europe-champions-league', setup: '2014-15'
-
+football 'europe-champions-league', setup: '2017-18'
