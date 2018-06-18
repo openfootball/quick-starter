@@ -4,10 +4,9 @@
 #  use
 #    $ sportdb new worldcup
 
-
 world  'world.db', setup: 'countries'
 
-
 football 'national-teams'
-football 'world-cup'
+football 'national-teams', setup: 'history'
 
+football 'world-cup', setup: 'history'
