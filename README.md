@@ -6,13 +6,13 @@
 
 ## Usage
 
-Use the `sportdb new <name>` to build yourself a copy. Example:
+Use the `sportdb new <name>` command to build yourself a copy. Example:
 
     $ sportdb new eng2019-20
 
 Will run the following steps:
 
-- Step 1:  Download `eng2019-20.rb` Datafile (from GitHub) to your working folder as `./Datafile`
+- Step 1:  Download [`eng2019-20.rb`](eng2019-20.rb) Datafile (from GitHub) to your working folder as `./Datafile`
 - Step 2:  Run the `sportdb build` command
     - Step 2.a:  Download all datasets listed in the `Datafile` as zip archives (from GitHub) to `./tmp`
     - Step 2.b:  Create the "empty" database, that is, table structure, indexes, etc. (schema)
