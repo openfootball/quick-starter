@@ -4,7 +4,4 @@
 #  use
 #    $ sportdb new it
 
-world  'world.db', setup: 'countries'
-
-football 'it-italy'
-
+football 'italy'

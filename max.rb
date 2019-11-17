@@ -4,8 +4,6 @@
 #  use
 #    $ sportdb new max
 
-world  'world.db', setup: 'countries'
-
 
 #####################
 # -- Basics
@@ -31,23 +29,20 @@ football 'confed-cup'
 
 football 'clubs'
 
-football 'eng-england'
-football 'at-austria'
-football 'de-deutschland'
-football 'es-espana'
-football 'it-italy'
-football 'fr-france'
-football 'ch-confoederatio-helvetica'
+football 'england'
+football 'deutschland'
+football 'espana'
+football 'italy'
+football 'france'
+football 'austria'
 
 football 'europe-champions-league'
 
-football 'major-league-soccer'
-football 'mx-mexico'
+football 'mexico'
 football 'north-america-champions-league'
 
-football 'br-brazil'
+football 'brazil'
 football 'copa-sudamericana'
 football 'copa-libertadores'
 
 football 'club-world-cup'
-

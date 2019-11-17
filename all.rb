@@ -8,11 +8,6 @@
 # change/rename: all to book or almanac - why, why not??
 
 
-world  'world.db', setup: 'countries'
-## add world austria.db ??
-## add world deutschland.db ??
-
-
 #####
 # national teams
 
@@ -25,16 +20,12 @@ football 'world-cup'
 
 football 'clubs'
 
+football 'england'
+football 'deutschland'
+football 'espana'
+football 'italy'
+football 'france'
 
-football 'eng-england'
-football 'de-deutschland'
-football 'es-espana'
-football 'it-italy'
-football 'fr-france'
-
-football 'at-austria'
-football 'ch-confoederatio-helvetica'
-
+football 'austria'
 
 football 'europe-champions-league'
-

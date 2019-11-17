@@ -5,9 +5,6 @@
 #    $ sportdb new worldcup2018
 
 
-world  'world.db', setup: 'countries'
-
-
 football 'national-teams'
 
 ### fix: allow same "zip/dataset" get referenced many times (but only download once)
