@@ -23,7 +23,9 @@ That's it.
 
 
 
-## What's `sportdb`?
+## Appendix
+
+### Q: What's `sportdb`?
 
 `sportdb` is a command line tool that lets you read datasets in plain text into your sports database.
 To get a list of all commands and options type:
