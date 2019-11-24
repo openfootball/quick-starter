@@ -27,7 +27,8 @@ That's it.
 
 ### Q: What's `sportdb`?
 
-`sportdb` is a command line tool that lets you read datasets in plain text into your sports database.
+`sportdb` is a command line tool that lets you read datasets (e.g. leagues, clubs, match schedules, etc.) 
+in plain text into your SQL database of choice (e.g. SQLite, PostgreSQL, etc.).
 To get a list of all commands and options type:
 
 ```
