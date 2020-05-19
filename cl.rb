@@ -5,5 +5,4 @@
 #    $ sportdb new cl
 
 
-football 'clubs'
 football 'europe-champions-league'

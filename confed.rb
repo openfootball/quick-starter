@@ -5,5 +5,4 @@
 #    $ sportdb new confed
 
 
-football 'national-teams'
 football 'confed-cup'

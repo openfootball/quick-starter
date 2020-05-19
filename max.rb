@@ -8,14 +8,13 @@
 #####################
 # -- Basics
 
-football 'stadiums'
-football 'players'
-football 'assocs'
+#  note: stadiums, players & assocs (in the new format) still work-in-progress / pending; sorry
+# football 'stadiums'
+# football 'players'
+# football 'assocs'
 
 ##########################
 # -- National Teams
-
-football 'national-teams'
 
 football 'world-cup'
 football 'euro-cup'
@@ -26,8 +25,6 @@ football 'confed-cup'
 
 #########################
 # -- Clubs
-
-football 'clubs'
 
 football 'england'
 football 'deutschland'

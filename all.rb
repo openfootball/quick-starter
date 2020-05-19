@@ -11,14 +11,11 @@
 #####
 # national teams
 
-football 'national-teams'
 football 'world-cup'
 
 
 ###################
 # clubs
-
-football 'clubs'
 
 football 'england'
 football 'deutschland'
