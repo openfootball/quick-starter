@@ -8,11 +8,11 @@
 
 Use the `sportdb new <name>` command to build yourself a copy. Example:
 
-    $ sportdb new eng2019-20
+    $ sportdb new eng2020-21
 
 Will run the following steps:
 
-- Step 1:  Download [`eng2019-20.rb`](eng2019-20.rb) Datafile (from GitHub) to your working folder as `./Datafile`
+- Step 1:  Download [`eng2020-21.rb`](eng2020-21.rb) Datafile (from GitHub) to your working folder as `./Datafile`
 - Step 2:  Run the `sportdb build` command
     - Step 2.a:  Download all datasets listed in the `Datafile` as zip archives (from GitHub) to `./tmp`
     - Step 2.b:  Create the "empty" database, that is, table structure, indexes, etc. (schema)
@@ -27,12 +27,12 @@ That's it.
 
 ### Q: What's `sportdb`?
 
-`sportdb` is a command line tool that lets you read datasets (e.g. leagues, clubs, match schedules, etc.) 
+`sportdb` is a command line tool that lets you read datasets (e.g. leagues, clubs, match schedules, etc.)
 in plain text into your SQL database of choice (e.g. SQLite, PostgreSQL, etc.).
 To get a list of all commands and options type:
 
 ```
-$ sportdb help 
+$ sportdb help
 ```
 
 Resulting in:
@@ -55,7 +55,7 @@ COMMANDS
     build, b      - Build DB (download/create/read); use ./Datafile - zips get downloaded to ./tmp
     serve, server - Start web service (HTTP JSON API)
 
-MORE COMMANDS    
+MORE COMMANDS
     create        - Create DB schema
     download, dl  - Download datasets; use ./Datafile - zips get downloaded to ./tmp
     read, r       - Read datasets; use ./Datafile - zips required in ./tmp
@@ -76,7 +76,7 @@ SYNOPSIS
     sportdb [global options] new NAME
 
 EXAMPLES
-    sportdb new eng2019-20
+    sportdb new eng2020-21
     sportdb new eng
 ```
 
