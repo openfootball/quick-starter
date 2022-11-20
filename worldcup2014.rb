@@ -5,4 +5,4 @@
 #    $ sportdb new worldcup2014
 
 
-football 'world-cup', setup: '2014'
+football 'worldcup', setup: '2014'

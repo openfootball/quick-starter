@@ -6,4 +6,4 @@
 
 
 
-football 'world-cup', setup: '2018'
+football 'worldcup', setup: '2018'

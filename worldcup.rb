@@ -5,4 +5,4 @@
 #    $ sportdb new worldcup
 
 
-football 'world-cup'
+football 'worldcup'
