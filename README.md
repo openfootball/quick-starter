@@ -8,11 +8,11 @@
 
 Use the `sportdb new <name>` command to build yourself a copy. Example:
 
-    $ sportdb new eng2020-21
+    $ sportdb new eng2024-25
 
 Will run the following steps:
 
-- Step 1:  Download [`eng2020-21.rb`](eng2020-21.rb) Datafile (from GitHub) to your working folder as `./Datafile`
+- Step 1:  Download [`eng2024-25.rb`](eng2024-25.rb) Datafile (from GitHub) to your working folder as `./Datafile`
 - Step 2:  Run the `sportdb build` command
     - Step 2.a:  Download all datasets listed in the `Datafile` as zip archives (from GitHub) to `./tmp`
     - Step 2.b:  Create the "empty" database, that is, table structure, indexes, etc. (schema)
@@ -76,7 +76,7 @@ SYNOPSIS
     sportdb [global options] new NAME
 
 EXAMPLES
-    sportdb new eng2020-21
+    sportdb new eng2024-25
     sportdb new eng
 ```
 

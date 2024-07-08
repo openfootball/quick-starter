@@ -2,6 +2,6 @@
 # Datafile for Women's World Cups
 #
 #  use
-#    $ sportdb new worldcup-women
+#    $ sportdb new women-worldcup
 
-football 'world-cup-women'
+football 'women-world-cup'

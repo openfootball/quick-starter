@@ -8,4 +8,5 @@ football 'england'
 football 'deutschland'
 football 'espana'
 football 'italy'
-football 'france'
+
+# football 'france'  -- now in europe/france

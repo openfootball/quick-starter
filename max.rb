@@ -5,19 +5,11 @@
 #    $ sportdb new max
 
 
-#####################
-# -- Basics
-
-#  note: stadiums, players & assocs (in the new format) still work-in-progress / pending; sorry
-# football 'stadiums'
-# football 'players'
-# football 'assocs'
-
 ##########################
 # -- National Teams
 
-football 'world-cup'
-football 'euro-cup'
+football 'worldcup'
+football 'euro'
 football 'africa-cup'
 football 'north-america-gold-cup'
 football 'copa-america'
@@ -30,16 +22,19 @@ football 'england'
 football 'deutschland'
 football 'espana'
 football 'italy'
-football 'france'
 football 'austria'
+# football 'france'  -- now in europe/france
+football 'europe'
 
 football 'europe-champions-league'
 
 football 'mexico'
 football 'north-america-champions-league'
 
-football 'brazil'
-football 'copa-sudamericana'
-football 'copa-libertadores'
+# football 'brazil'  -- now in south_america/brazil
+football 'south-america'
+football 'copa-libertadores'   ## incl. copa sudamericana
 
 football 'club-world-cup'
+football 'world'
+
